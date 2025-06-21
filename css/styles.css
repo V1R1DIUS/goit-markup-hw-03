@@ -27,7 +27,7 @@ img{
 
 /* Header */
 
-header{
+.header{
   border-bottom:1px solid #e7e9fc;
 }
 
@@ -38,6 +38,7 @@ header{
 .header-navigation{
   display: flex;
   align-items: center;
+
 }
 
 .logo {
@@ -202,6 +203,13 @@ background-color: #ffffff;
 /* Footer */
 .footer{
  background-color: #2e2f42;
+ padding: 100px 0;
+
+}
+
+.logo-footer{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-studio{
@@ -212,4 +220,5 @@ background-color: #ffffff;
   line-height: 1.5;
   color: #f4f4fd;
  letter-spacing: 0.02em;
+ max-width: 264px;
 }
