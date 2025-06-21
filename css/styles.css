@@ -38,7 +38,7 @@ img{
 .header-navigation{
   display: flex;
   align-items: center;
-
+  
 }
 
 .logo {
@@ -154,6 +154,9 @@ padding: 188px 0;
 .benefits-list{
   display: flex;
   gap: 24px;
+}
+
+.benefits-list-item{
   width: calc((100%-72px)/4);
 }
 
@@ -176,6 +179,7 @@ padding: 188px 0;
 /* Section 3 Our Team */
 .team{
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -184,15 +188,29 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 color: #2e2f42;
 }
 
-.team-list {
+.team-list{
+  display: flex;
+  gap: 24px;
+  width: calc((100%-72px)/4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item {
 background-color: #ffffff;
 
 }
 
+.team-list-conteiner{
+  padding: 32px 0;
+}
+
 .team-name {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -200,6 +218,7 @@ background-color: #ffffff;
   color: #2e2f42;
 }
 .team-position {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -207,17 +226,41 @@ background-color: #ffffff;
 }
 
 /* Section 4  Our Portfolio */
+.portfolio{
+  padding: 120px 0 120px 0;
+}
+
 .portfolio-title{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item{
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list-text{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+  margin-bottom: 8px;
+
+}
+
 .portfolio-item-title {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
